@@ -1,0 +1,1 @@
+#include <stdio.h> int main() { float num[5]; float average; float sum=0; printf(" Enter the array elements"); for (int i = 0; i < 5; i++) { scanf("%f",&num[i]); sum += num[i]; } average = sum / 5.0; printf("The sum of number :%f",sum); printf("The average:%f",average); return 0; }
